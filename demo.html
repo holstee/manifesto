@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>Font Face Demo</title>
+
+	<link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8">
+
+	<style type="text/css" media="screen">
+		body {font-family: Helvetica, Arial, sans-serif; color:#333;}
+
+		.holstee-manifesto {
+			font-weight: bold;
+			font-style: normal;
+			line-height:normal;
+			font-family: 'Alexandria', sans-serif;
+			font-size:25px;
+			text-transform: uppercase;
+			position:relative;
+		}
+		
+		.this-is-your{
+			font-size:47px;
+			letter-spacing: 1px;
+	    -letter-kern: 0 0 0 0
+	                  0 0
+	                  -1px -3px 0 0;
+		}
+
+		.life{
+			font-size: 128px;
+			position: absolute;
+			top: -12px;
+			left: 315px;
+		}
+
+		.do-what-you-love{
+			font-size: 28px;
+			position: absolute;
+			top: 50px;
+			left: 6px;
+	    -letter-kern: 0 4px
+	                  0 0 -1px 3px
+	                  0 0 3px
+	                  0 -2px 0 0;
+		}
+
+		.and-do-it-often{
+			position: absolute;
+			top: 81px;
+			left: 5px;
+			font-size: 31px;
+	    -letter-kern: 1px 2px 5px
+	                  1px 4px
+	                  0 5px
+	                  0 1px 2px 1px 0;
+		}
+
+	</style>
+</head>
+<body>
+
+<div class="holstee-manifesto">
+		<div class="this-is-your">This is your</div>
+		<div class="life">life.</div>
+		<div class="do-what-you-love">Do what you love,</div>
+		<div class="and-do-it-often">and do it often.</div>
+
+</div>
+<!--
+If you don't like something, change it. 
+If you don't like your job, quit.
+If you don't have enough time, stop watching TV.
+If you are looking for the love of your life, stop; they will be waiting for you when you start doing things you love.
+Stop over-analysing, life is simple.
+All emotions are beautiful.
+When you eat, appreciate every last bite.
+Life is simple.
+Open your heart, mind and arms to new things and people, we are united in our differences.
+Ask the next person you see what their passion is and share your inspiring dream with them.
+Travel often; getting lost will help you find yourself.
+Some opportunities only come once, seize them.
+Life is about the people you meet and the things you create with them, so go out and start creating.
+Life is short, live your dream and wear your passion.
+</div>
+-->
+<img src="manifesto.jpg" style="position:absolute;top: -16px;left: -35px;opacity:.5;z-index:-1">
+	
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="./bower_components/kerning.js/kerning.js"></script>
+</body>
+</html>
